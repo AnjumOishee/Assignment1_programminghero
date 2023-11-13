@@ -1,0 +1,114 @@
+
+body{
+    padding:10px;
+    margin: 10px;
+}
+.logo{
+    display: flex;
+    gap: 2px;
+}
+nav h3{
+     color: white;
+     font-style: italic;
+     
+}
+ul {
+    list-style-type: none;
+    font-style: italic;
+    gap:20px;
+    
+}
+ul a{
+    color:white;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: black;
+    
+}
+
+ul{
+    display: flex;
+    flex direction: column;
+}
+ul a:hover{
+    color:brown
+}
+*{
+    padding:0;
+    margin: 0;
+}
+.h3{
+    display: flex
+}
+.plot{
+    width: 50%;
+}
+.section_2{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px ;
+    background-color: rgba(39, 37, 37, 0.144);
+    padding-left: 5px;
+}
+.d_link{
+    font-size: larger;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 1px solid black;
+    
+}
+.song_link{
+    font-size: larger;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+#theme_song{
+    border-radius: 10%;
+}
+#Link{
+    
+    display: flex;
+    justify-content:space-around;
+}
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(177, 87, 87);
+}
+section a{
+    color: black;
+}
+section a:hover{
+    color:white
+}
+#song{
+ display: flex;
+ justify-content: center;
+ gap: 100px;
+}
+footer{
+    text-align: center;
+    color: black;
+    background-color: rgb(83, 128, 128);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer{
+    margin-top: 40px;
+}
+#heist{
+    color: rgb(167, 7, 7);
+}
+#footer_image{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
